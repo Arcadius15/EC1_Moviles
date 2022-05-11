@@ -10,7 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EC1_Moviles">
         <activity
+<<<<<<< HEAD
             android:name=".Ejercicio3Activity"
+=======
+            android:name=".Ejercicio1Activity"
+>>>>>>> main
             android:exported="false" />
         <activity
             android:name=".MainActivity"

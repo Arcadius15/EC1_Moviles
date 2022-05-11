@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">EC1_Moviles</string>
+    <string name="titulo_ejercicio1">Ejercicio 1</string>
+    <string name="titulo_ejercicio2">Ejercicio 2</string>
+    <string name="nro_computadoras">N° de Computadoras</string>
+    <string name="precio_computadora">Precio x Computadora: $11,000</string>
+    <string name="titulo_main">Examen Continuo 1 \n Grupo 9</string>
+    <string name="titulo_ejercicio3">Ejercicio 3</string>
+    <string name="titulo_ejercicio4">Ejercicio 4</string>
+    <string name="volver">Volver</string>
 </resources>
