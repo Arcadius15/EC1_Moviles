@@ -4,7 +4,7 @@
     <string name="titulo_ejercicio2">Ejercicio 2</string>
     <string name="nro_computadoras">N° de Computadoras</string>
     <string name="precio_computadora">Precio x Computadora: $11,000</string>
-    <string name="titulo_main">Examen Continuo 1 \n Grupo 9</string>
+    <string name="titulo_main">Examen Continuo 1\nGrupo 9</string>
     <string name="titulo_ejercicio3">Ejercicio 3</string>
     <string name="titulo_ejercicio4">Ejercicio 4</string>
     <string name="volver">Volver</string>
@@ -14,4 +14,5 @@
     <string name="calcular_bonificacion">Calcular Bonificación</string>
     <string name="ingresa_numeromes">Ingresa un número del 1 al 12</string>
     <string name="ver_mes">Ver Mes</string>
+    <string name="calcular_descuento">Calcular Descuento</string>
 </resources>

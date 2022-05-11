@@ -42,7 +42,7 @@ class Ejercicio3Activity : AppCompatActivity(), View.OnClickListener {
 
             AlertDialog.Builder(v.context)
                 .setTitle("Resultado")
-                .setMessage("Su Bonificacion es $$bonificacion\n" +
+                .setMessage("Su Bonificación es $$bonificacion\n" +
                             "Total: $$total")
                 .setPositiveButton("OK"){ dialog, _ -> dialog.dismiss() }
                 .show()

@@ -27,7 +27,12 @@ class Ejercicio4Activity : AppCompatActivity(), View.OnClickListener {
                 fact *= i.toLong()
             }
 
-            binding.tvFactorial.text = "Factorial de $numero ($numero!): $fact"
+            if (fact != 0L){
+                binding.tvFactorial.text = "Factorial de $numero ($numero!): $fact"
+            } else {
+                binding.tvFactorial.text = "Factorial de $numero ($numero!): ERROR! resultado demasiado grande."
+            }
+
         } else if (v.id == R.id.btnVolver4){
             startActivity(Intent(this@Ejercicio4Activity, MainActivity::class.java))
         }
