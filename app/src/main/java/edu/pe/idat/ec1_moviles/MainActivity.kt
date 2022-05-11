@@ -15,11 +15,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(binding.root)
 
         binding.btnEjer1.setOnClickListener(this)
+        binding.btnEjer3.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
         if (v.id == R.id.btnEjer1){
             startActivity(Intent(this, Ejercicio1Activity::class.java))
+        }else if (v.id == R.id.btnEjer3){
+            startActivity(Intent(this, Ejercicio3Activity::class.java))
         }
     }
 }

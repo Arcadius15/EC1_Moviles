@@ -14,6 +14,8 @@
         android:text="Ejercicio 3"
         android:textSize="30dp"
         android:textStyle="bold"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
         />
 
     <EditText
@@ -21,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:layout_margin="20sp"
         android:hint="Ingrese monto"
         android:inputType="number" />
 
@@ -28,7 +31,9 @@
         android:id="@+id/btnCalcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calcular" />
+        android:text="Calcular"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"/>
 
 
 </LinearLayout>
