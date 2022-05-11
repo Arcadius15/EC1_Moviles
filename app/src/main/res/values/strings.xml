@@ -8,4 +8,10 @@
     <string name="titulo_ejercicio3">Ejercicio 3</string>
     <string name="titulo_ejercicio4">Ejercicio 4</string>
     <string name="volver">Volver</string>
+    <string name="ingresar_numero">Ingresar Número</string>
+    <string name="calcular_factorial">Calcular Factorial</string>
+    <string name="ingrese_monto">Ingrese Monto</string>
+    <string name="calcular_bonificacion">Calcular Bonificación</string>
+    <string name="ingresa_numeromes">Ingresa un número del 1 al 12</string>
+    <string name="ver_mes">Ver Mes</string>
 </resources>

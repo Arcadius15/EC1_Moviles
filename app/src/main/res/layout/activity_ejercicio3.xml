@@ -14,7 +14,7 @@
         android:text="Ejercicio 3"
         android:textSize="30dp"
         android:textStyle="bold"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         />
 
@@ -22,18 +22,28 @@
         android:id="@+id/txtMonto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:layout_margin="20sp"
-        android:hint="Ingrese monto"
-        android:inputType="number" />
+        android:ems="10"
+        android:hint="@string/ingrese_monto"
+        android:inputType="number"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/btnCalcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calcular"
-        android:layout_marginLeft="40sp"
-        android:layout_marginRight="40sp"/>
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/calcular_bonificacion" />
+
+    <Button
+        android:id="@+id/btnVolver3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/volver" />
 
 
 </LinearLayout>

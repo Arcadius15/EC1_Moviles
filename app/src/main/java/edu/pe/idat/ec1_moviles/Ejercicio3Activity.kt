@@ -2,6 +2,7 @@ package edu.pe.idat.ec1_moviles
 
 import android.content.Context
 import android.content.DialogInterface
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -18,6 +19,7 @@ class Ejercicio3Activity : AppCompatActivity(), View.OnClickListener {
         binding = ActivityEjercicio3Binding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btnCalcular.setOnClickListener(this)
+        binding.btnVolver3.setOnClickListener(this)
     }
 
     override fun onClick(v : View) {
@@ -36,13 +38,16 @@ class Ejercicio3Activity : AppCompatActivity(), View.OnClickListener {
                 else -> 0
             }
 
+            var total = monto + bonificacion.toDouble()
+
             AlertDialog.Builder(v.context)
                 .setTitle("Resultado")
-                .setMessage("Su Bonificacion es $bonificacion")
+                .setMessage("Su Bonificacion es $$bonificacion\n" +
+                            "Total: $$total")
                 .setPositiveButton("OK"){ dialog, _ -> dialog.dismiss() }
                 .show()
+        } else if (v.id == R.id.btnVolver3) {
+            startActivity(Intent(this@Ejercicio3Activity, MainActivity::class.java))
         }
-
-
     }
 }
