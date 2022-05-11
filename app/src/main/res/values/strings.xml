@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">EC1_Moviles</string>
+    <string name="titulo_ejercicio1">Ejercicio 1</string>
+    <string name="nro_computadoras">N° de Computadoras</string>
+    <string name="precio_computadora">Precio x Computadora: $11,000</string>
 </resources>
